@@ -5,10 +5,10 @@ public class Driver {
     public static void main(String[] args) {
 	Greeter g,g2;
 	String result;
-	g = new Greeter();
-	g.setGreeting("Hello");
-	g2 = new Greeter();
-	g2.setGreeting("How are you doing");
+	g.setGreeting("Howdy");
+	g.greet("Tom");
+	g.setGreeting("sup");
+	g.greet("Fred");
 	result = g.greet("Tom");
 	System.out.println(result);
 	result = g2.greet("Sarah");
