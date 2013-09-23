@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Greeter {
 
-    private String greeting; 
+    public String greeting; 
     /* 2. change public to private,
        test, then change back 
     */
